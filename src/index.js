@@ -20,12 +20,12 @@ const store = createStore(rootReducer, initialState);
 
 ReactDOM.render(
   <Provider store={store} >
-    <Router history={browserHistory} >
-      <Route path="/" component={App} >
-        <Route path='/movies' component={MoviesPage} >
-          <Route path="/movies/:id" component={MoviesShow} />
-        </Route>
+    <Router history={browserHistory}>
+      <Route path="/" component={App} />
+      <Route path='/movies' component={MoviesPage}>
+        <Route path="/movies/:id" component={MoviesShow} />
       </Route>
     </Router>
   </Provider>,
-document.getElementById('root'));
+  document.getElementById('root')
+);

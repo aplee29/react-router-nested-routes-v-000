@@ -8,3 +8,17 @@ export default (props) => {
     </div>
   );
 }
+
+// import React, { Component } from 'react'
+//
+// class MoviesShow extends Component {
+//   render(){
+//     return(
+//       <div>
+//         Movies Show Component!
+//       </div>
+//     )
+//   }
+// }
+//
+// export default MoviesShow
