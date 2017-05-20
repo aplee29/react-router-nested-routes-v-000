@@ -9,6 +9,7 @@ class MoviesPage extends Component {
     return (
       <div>
         <MoviesList movies={this.props.movies} />
+        { this.props.children }
       </div>
     )
   }
